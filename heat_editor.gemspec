@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+# Hosted on github private repo
+
 require_relative "lib/heat_editor/version"
 
 Gem::Specification.new do |spec|
@@ -8,10 +10,10 @@ Gem::Specification.new do |spec|
   spec.authors = ["dannymorgan"]
   spec.email = ["contact@dannymorgan.dev"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.summary = "This gem enables the wysiwyg editor used by HEAT's internal CMS."
+  spec.description = "This gem enables the wysiwyg editor used by HEAT's internal CMS."
+  spec.homepage = "https://heat.io"
+  spec.required_ruby_version = ">= 3.2.1"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
